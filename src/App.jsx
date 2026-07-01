@@ -7,14 +7,15 @@ import { HiSparkles } from 'react-icons/hi2';
 
 import { useReveal } from './animations/useReveal';
 import { SectionHeading } from './components/SectionHeading';
-import memory1 from './assets/memory-1.svg';
-import memory2 from './assets/memory-2.svg';
-import memory3 from './assets/memory-3.svg';
+import pic1 from '../assets/pic1.png';
+import pic2 from '../assets/pic2.png';
+import pic3 from '../assets/pic3.jpeg';
+import pic4 from '../assets/pic4.png';
 
 import './styles/app.css';
 
 const memories = [
-  { title: 'Volleyball Nights', text: 'The energy, the laughter, the impossible saves.' },
+  { title: 'Volleyball Evenings', text: 'The energy, the laughter, the impossible saves.' },
   { title: 'Ganthiya Sessions', text: 'Tea in hand and stories that never ended.' },
   { title: 'Travel Chapters', text: 'From Pavagadh to Dakor to Vadtal, every road felt cinematic.' },
   { title: 'Sensation Era', text: 'The days we made joy feel larger than life.' },
@@ -28,10 +29,10 @@ const timeline = [
 ];
 
 const galleryImages = [
-  { src: memory1, title: 'Golden Light' },
-  { src: memory2, title: 'Night Glow' },
-  { src: memory3, title: 'Celebration' },
-  { src: memory1, title: 'Forever Yours' },
+  { src: pic1, title: 'Golden Memory' },
+  { src: pic2, title: 'Beautiful Moment' },
+  { src: pic3, title: 'Celebration' },
+  { src: pic4, title: 'Forever Memory' },
 ];
 
 function App() {
