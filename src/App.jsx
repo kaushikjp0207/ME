@@ -8,10 +8,6 @@ import { HiSparkles } from 'react-icons/hi2';
 
 import { useReveal } from './animations/useReveal';
 import { SectionHeading } from './components/SectionHeading';
-import pic1 from '../assets/pic1.png';
-import pic2 from '../assets/pic2.png';
-import pic3 from '../assets/pic3.jpeg';
-import pic4 from '../assets/pic4.png';
 
 import './styles/app.css';
 
@@ -30,10 +26,10 @@ const timeline = [
 ];
 
 const galleryImages = [
-  { src: pic1, title: 'Golden Memory' },
-  { src: pic2, title: 'Beautiful Moment' },
-  { src: pic3, title: 'Celebration' },
-  { src: pic4, title: 'Forever Memory' },
+  { src: '/pic1.png', title: 'Golden Memory' },
+  { src: '/pic2.png', title: 'Beautiful Moment' },
+  { src: '/pic3.jpeg', title: 'Celebration' },
+  { src: '/pic4.png', title: 'Forever Memory' },
 ];
 
 function App() {
