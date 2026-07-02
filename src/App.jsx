@@ -25,6 +25,7 @@ const timeline = [
   { year: '2026', title: 'Still our favorite human', detail: 'More love, more memories, more reasons to celebrate.' },
 ];
 
+// Gallery images with correct file extensions
 const galleryImages = [
   { src: '/pic1.png', title: 'Golden Memory' },
   { src: '/pic2.png', title: 'Beautiful Moment' },
