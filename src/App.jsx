@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import React from "react";
 import { motion, AnimatePresence } from 'framer-motion';
 import Lenis from 'lenis';
 import confetti from 'canvas-confetti';
