@@ -27,10 +27,10 @@ const timeline = [
 
 // Gallery images with correct file extensions
 const galleryImages = [
-  { src: '/pic1.png', title: 'Golden Memory' },
-  { src: '/pic2.png', title: 'Beautiful Moment' },
-  { src: '/pic3.jpeg', title: 'Celebration' },
-  { src: '/pic4.png', title: 'Forever Memory' },
+  { src: 'pic1.png', title: 'Golden Memory' },
+  { src: 'pic2.png', title: 'Beautiful Moment' },
+  { src: 'pic3.jpeg', title: 'Celebration' },
+  { src: 'pic4.png', title: 'Forever Memory' },
 ];
 
 function App() {
